@@ -33,13 +33,13 @@ namespace proyecto1_Calculadora
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
-        /// Button1 control.
+        /// btnSqur control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnSqur;
 
         /// <summary>
         /// Button2 control.
@@ -69,13 +69,13 @@ namespace proyecto1_Calculadora
         protected global::System.Web.UI.WebControls.Button Button4;
 
         /// <summary>
-        /// Button5 control.
+        /// btnDivision control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
+        protected global::System.Web.UI.WebControls.Button btnDivision;
 
         /// <summary>
         /// Button6 control.
@@ -87,40 +87,40 @@ namespace proyecto1_Calculadora
         protected global::System.Web.UI.WebControls.Button Button6;
 
         /// <summary>
-        /// Button7 control.
+        /// btnSeven control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button7;
+        protected global::System.Web.UI.WebControls.Button btnSeven;
 
         /// <summary>
-        /// Button8 control.
+        /// btnEight control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button8;
+        protected global::System.Web.UI.WebControls.Button btnEight;
 
         /// <summary>
-        /// Button9 control.
+        /// btnNine control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button9;
+        protected global::System.Web.UI.WebControls.Button btnNine;
 
         /// <summary>
-        /// Button10 control.
+        /// btnMultiplication control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button10;
+        protected global::System.Web.UI.WebControls.Button btnMultiplication;
 
         /// <summary>
         /// Button11 control.
@@ -132,40 +132,40 @@ namespace proyecto1_Calculadora
         protected global::System.Web.UI.WebControls.Button Button11;
 
         /// <summary>
-        /// Button12 control.
+        /// btnFour control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button12;
+        protected global::System.Web.UI.WebControls.Button btnFour;
 
         /// <summary>
-        /// Button13 control.
+        /// btnFive control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button13;
+        protected global::System.Web.UI.WebControls.Button btnFive;
 
         /// <summary>
-        /// Button14 control.
+        /// btnSix control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button14;
+        protected global::System.Web.UI.WebControls.Button btnSix;
 
         /// <summary>
-        /// Button15 control.
+        /// btnSubtraction control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button15;
+        protected global::System.Web.UI.WebControls.Button btnSubtraction;
 
         /// <summary>
         /// Button16 control.
@@ -177,40 +177,40 @@ namespace proyecto1_Calculadora
         protected global::System.Web.UI.WebControls.Button Button16;
 
         /// <summary>
-        /// Button17 control.
+        /// btnOne control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button17;
+        protected global::System.Web.UI.WebControls.Button btnOne;
 
         /// <summary>
-        /// Button18 control.
+        /// btnTwo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button18;
+        protected global::System.Web.UI.WebControls.Button btnTwo;
 
         /// <summary>
-        /// Button19 control.
+        /// btnThree control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button19;
+        protected global::System.Web.UI.WebControls.Button btnThree;
 
         /// <summary>
-        /// Button20 control.
+        /// btnAddition control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button20;
+        protected global::System.Web.UI.WebControls.Button btnAddition;
 
         /// <summary>
         /// Button21 control.
@@ -231,13 +231,13 @@ namespace proyecto1_Calculadora
         protected global::System.Web.UI.WebControls.Button Button22;
 
         /// <summary>
-        /// Button23 control.
+        /// btnZero control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button23;
+        protected global::System.Web.UI.WebControls.Button btnZero;
 
         /// <summary>
         /// Button24 control.
