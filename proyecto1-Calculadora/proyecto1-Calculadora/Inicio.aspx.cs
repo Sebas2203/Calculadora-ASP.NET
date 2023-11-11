@@ -9,7 +9,6 @@ namespace proyecto1_Calculadora
 {
     public partial class Inicio : System.Web.UI.Page
     {
-        Global global = new Global();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -29,6 +28,7 @@ namespace proyecto1_Calculadora
             }
         }
 
+        //botones del 0 al 9
         protected void btnThree_Click(object sender, EventArgs e)
         {
             if ((TextBox1.Text == "+") || (TextBox1.Text == "-") || (TextBox1.Text == "x") || (TextBox1.Text == "÷"))
@@ -149,60 +149,69 @@ namespace proyecto1_Calculadora
         //botones de operaciones
         protected void btnAddition_Click(object sender, EventArgs e)
         {
-
+            Global.num1 = Convert.ToInt32(TextBox1.Text);
+            TextBox1.Text = "";
+            Global.num2 = '+';
+            TextBox1.Text += Global.num2;
         }
 
         protected void btnSubtraction_Click(object sender, EventArgs e)
         {
-            global.num1 = Convert.ToInt32(TextBox1.Text);
+            Global.num1 = Convert.ToInt32(TextBox1.Text);
             TextBox1.Text = "";
-            global.num2 = '-';
-            TextBox1.Text += global.num2;
+            Global.num2 = '-';
+            TextBox1.Text += Global.num2;
         }
 
         protected void btnMultiplication_Click(object sender, EventArgs e)
         {
-
+            Global.num1 = Convert.ToInt32(TextBox1.Text);
+            TextBox1.Text = "";
+            Global.num2 = 'x';
+            TextBox1.Text += Global.num2;
         }
 
         protected void btnDivision_Click(object sender, EventArgs e)
         {
-
+            Global.num1 = Convert.ToInt32(TextBox1.Text);
+            TextBox1.Text = "";
+            Global.num2 = '÷';
+            TextBox1.Text += Global.num2;
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void btnEqual_Click(object sender, EventArgs e)
         {
+            Global.num3 = Convert.ToInt32(TextBox1.Text);
             TextBox1.Text = "";
-        }
-
-        protected void Button25_Click(object sender, EventArgs e)
-        {
-            global.num3 = Convert.ToInt32(TextBox1.Text);
-            TextBox1.Text = "";
-            if (global.num2 == '÷')
+            if (Global.num2 == '÷')
             {
-                global.num4 = global.num1 / global.num3;
-                TextBox1.Text += global.num4;
-                global.num1 = global.num4;
+                Global.num4 = Global.num1 / Global.num3;
+                TextBox1.Text += Global.num4;
+                Global.num1 = Global.num4;
             }
-            else if (global.num2 == '+')
+            else if (Global.num2 == '+')
             {
-                global.num4 = global.num1 + global.num3;
-                TextBox1.Text += global.num4;
-                global.num1 = global.num4;
+                Global.num4 = Global.num1 + Global.num3;
+                TextBox1.Text += Global.num4;
+                Global.num1 = Global.num4;
             }
-            else if (global.num2 == '-')
+            else if (Global.num2 == '-')
             {
-                global.num4 = global.num1 - global.num3;
-                TextBox1.Text += global.num4;
-                global.num1 = global.num4;
+                Global.num4 = Global.num1 - Global.num3;
+                TextBox1.Text += Global.num4;
+                Global.num1 = Global.num4;
             }
             else
             {
-                global.num4 = global.num1 * global.num3;
-                TextBox1.Text += global.num4;
-                global.num1 = global.num4;
+                Global.num4 = Global.num1 * Global.num3;
+                TextBox1.Text += Global.num4;
+                Global.num1 = Global.num4;
             }
+        }
+
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            TextBox1.Text = "";
         }
     }
 }

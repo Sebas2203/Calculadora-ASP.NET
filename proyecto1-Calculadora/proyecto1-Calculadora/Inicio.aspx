@@ -26,9 +26,9 @@
             </p>
             <p class="auto-style1">
                 <asp:Button ID="btnSqur" runat="server" Text="√" Height="40px" Width="40px" />
-                <asp:Button ID="Button2" runat="server" Text="C" Height="40px" Width="40px" OnClick="Button2_Click" />
-                <asp:Button ID="Button3" runat="server" Text="⌫" Height="40px" Width="40px" />
-                <asp:Button ID="Button4" runat="server" Text="n!" Height="40px" Width="40px" />
+                <asp:Button ID="btnClear" runat="server" Text="C" Height="40px" Width="40px" OnClick="btnClear_Click" />
+                <asp:Button ID="btnBackSpace" runat="server" Text="⌫" Height="40px" Width="40px" />
+                <asp:Button ID="btnFactorial" runat="server" Text="n!" Height="40px" Width="40px" />
                 <asp:Button ID="btnDivision" runat="server" Text="÷" Height="40px" Width="40px" OnClick="btnDivision_Click" />
                 <br />
                 <asp:Button ID="Button6" runat="server" Text="xy" Height="40px" Width="40px" />
@@ -43,24 +43,19 @@
                 <asp:Button ID="btnSix" runat="server" Text="6" Height="40px" Width="40px" OnClick="btnSix_Click" />
                 <asp:Button ID="btnSubtraction" runat="server" Text="-" Height="40px" Width="40px" OnClick="btnSubtraction_Click" />
                 <br />
-                <asp:Button ID="Button16" runat="server" Text="log" Height="40px" Width="40px" />
+                <asp:Button ID="btnLog" runat="server" Text="log" Height="40px" Width="40px" />
                 <asp:Button ID="btnOne" runat="server" Text="1" Height="40px" Width="40px" OnClick="btnOne_Click1" />
                 <asp:Button ID="btnTwo" runat="server" Text="2" Height="40px" Width="40px" OnClick="btnTwo_Click" />
                 <asp:Button ID="btnThree" runat="server" Text="3" Height="40px" Width="40px" OnClick="btnThree_Click" />
                 <asp:Button ID="btnAddition" runat="server" Text="+" Height="40px" Width="40px" OnClick="btnAddition_Click" />
                 <br />
-                <asp:Button ID="Button21" runat="server" Text="x²" Height="40px" Width="40px" />
+                <asp:Button ID="btnPow" runat="server" Text="x²" Height="40px" Width="40px" />
                 <asp:Button ID="Button22" runat="server" Text="+/-" Height="40px" Width="40px" />
                 <asp:Button ID="btnZero" runat="server" Text="0" Height="40px" Width="40px" OnClick="btnZero_Click" />
                 <asp:Button ID="Button24" runat="server" Text="," Height="40px" Width="40px" />
-                <asp:Button ID="Button25" runat="server" Text="=" Height="40px" Width="40px" OnClick="Button25_Click" />
-
-
+                <asp:Button ID="btnEqual" runat="server" Text="=" Height="40px" Width="40px" OnClick="btnEqual_Click" />
             </p>
         </div>
     </form>
 </body>
-<footer>
-    <p class="auto-style1">Grupo 4</p>
-</footer>
 </html>
