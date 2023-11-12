@@ -15,6 +15,7 @@ namespace proyecto1_Calculadora
         }
 
         //botones numeros
+        //botones del 0 al 9
         protected void btnTwo_Click(object sender, EventArgs e)
         {
             if ((TextBox1.Text == "+") || (TextBox1.Text == "-") || (TextBox1.Text == "x") || (TextBox1.Text == "÷"))
@@ -28,7 +29,6 @@ namespace proyecto1_Calculadora
             }
         }
 
-        //botones del 0 al 9
         protected void btnThree_Click(object sender, EventArgs e)
         {
             if ((TextBox1.Text == "+") || (TextBox1.Text == "-") || (TextBox1.Text == "x") || (TextBox1.Text == "÷"))
@@ -146,7 +146,7 @@ namespace proyecto1_Calculadora
             }
         }
 
-        //botones de operaciones
+        //botones de operaciones basicas
         protected void btnAddition_Click(object sender, EventArgs e)
         {
             Global.num1 = Convert.ToInt32(TextBox1.Text);
@@ -293,6 +293,33 @@ namespace proyecto1_Calculadora
                 TextBox1.Text += ",";
 
             }
+        }
+
+        //ileana
+        protected void btnSqur_Click(object sender, EventArgs e)
+        {
+            double numero = double.Parse(TextBox1.Text);
+            double resultado = Math.Sqrt(numero);
+            TextBox1.Text = resultado.ToString();
+        }
+
+        protected void btnBackSpace_Click(object sender, EventArgs e)
+        {
+            if (TextBox1.Text.Length > 0)
+            {
+                TextBox1.Text = TextBox1.Text.Substring(0, TextBox1.Text.Length - 1);
+            }
+        }
+
+        protected void btnFactorial_Click(object sender, EventArgs e)
+        {
+            int numero = int.Parse(TextBox1.Text);
+            int resultado = 1;
+            for (int i = 1; i <= numero; i++)
+            {
+                resultado *= i;
+            }
+            TextBox1.Text = resultado.ToString();
         }
     }
 

@@ -25,10 +25,10 @@
                 </strong>
             </p>
             <p class="auto-style1">
-                <asp:Button ID="btnSqur" runat="server" Text="√" Height="40px" Width="40px" />
+                <asp:Button ID="btnSqur" runat="server" Text="√" Height="40px" Width="40px" OnClick="btnSqur_Click" />
                 <asp:Button ID="btnClear" runat="server" Text="C" Height="40px" Width="40px" OnClick="btnClear_Click" />
-                <asp:Button ID="btnBackSpace" runat="server" Text="⌫" Height="40px" Width="40px" />
-                <asp:Button ID="btnFactorial" runat="server" Text="n!" Height="40px" Width="40px" />
+                <asp:Button ID="btnBackSpace" runat="server" Text="⌫" Height="40px" Width="40px" OnClick="btnBackSpace_Click" />
+                <asp:Button ID="btnFactorial" runat="server" Text="n!" Height="40px" Width="40px" OnClick="btnFactorial_Click" />
                 <asp:Button ID="btnDivision" runat="server" Text="÷" Height="40px" Width="40px" OnClick="btnDivision_Click" />
                 <br />
                 <asp:Button ID="Button6" runat="server" Text="xy" Height="40px" Width="40px" OnClick="Button6_Click" />
