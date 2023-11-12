@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Calculadora</title>
+    <title>Calculadora Grupo 4</title>
     <style type="text/css">
         .auto-style1 {
             text-align: center;
@@ -55,6 +55,7 @@
                 <asp:Button ID="btnComaDecimal" runat="server" Text="," Height="40px" Width="40px" OnClick="btnComaDecimal_Click" />
                 <asp:Button ID="btnEqual" runat="server" Text="=" Height="40px" Width="40px" OnClick="btnEqual_Click" />
             </p>
+            <hr />
         </div>
     </form>
 </body>
