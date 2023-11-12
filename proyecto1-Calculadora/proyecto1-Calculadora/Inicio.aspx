@@ -16,7 +16,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1 class="auto-style1">CALCULADORA </h1>
+            <h1 class="auto-style1">CALCULADORA GRUPO 4</h1>
             <hr />
             <p class="auto-style1">&nbsp;</p>
             <p class="auto-style1">
@@ -55,7 +55,15 @@
                 <asp:Button ID="btnComaDecimal" runat="server" Text="," Height="40px" Width="40px" OnClick="btnComaDecimal_Click" />
                 <asp:Button ID="btnEqual" runat="server" Text="=" Height="40px" Width="40px" OnClick="btnEqual_Click" />
             </p>
+            <br />
             <hr />
+            <p>Estudiantes:</p>
+            <ul>
+                <li>Sebastian Mora Rodríguez</li>
+                <li>Andrey Josue Murillo Badilla</li>
+                <li>Karla Rodríguez Valverde</li>
+                <li>Ileana Lizeth Romero Gonzalez</li>
+            </ul>
         </div>
     </form>
 </body>
