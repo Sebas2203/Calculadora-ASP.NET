@@ -222,13 +222,13 @@ namespace proyecto1_Calculadora
         protected global::System.Web.UI.WebControls.Button btnPow;
 
         /// <summary>
-        /// Button22 control.
+        /// btnPositiveNegative control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button22;
+        protected global::System.Web.UI.WebControls.Button btnPositiveNegative;
 
         /// <summary>
         /// btnZero control.
@@ -240,13 +240,13 @@ namespace proyecto1_Calculadora
         protected global::System.Web.UI.WebControls.Button btnZero;
 
         /// <summary>
-        /// Button24 control.
+        /// btnComaDecimal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button24;
+        protected global::System.Web.UI.WebControls.Button btnComaDecimal;
 
         /// <summary>
         /// btnEqual control.

@@ -201,17 +201,99 @@ namespace proyecto1_Calculadora
                 TextBox1.Text += Global.num4;
                 Global.num1 = Global.num4;
             }
-            else
+            else if (Global.num2 == 'x')
             {
                 Global.num4 = Global.num1 * Global.num3;
                 TextBox1.Text += Global.num4;
                 Global.num1 = Global.num4;
             }
+
         }
 
         protected void btnClear_Click(object sender, EventArgs e)
         {
             TextBox1.Text = "";
         }
+
+        //botones demas operaciones
+        //andrey
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(TextBox1.Text))
+            {
+
+                if (Global.num1 == 0)
+                {
+                    Global.num1 = (float)Convert.ToDouble(TextBox1.Text);
+                    TextBox1.Text = "";
+                }
+                else
+                {
+
+                    Global.num3 = (float)Convert.ToDouble(TextBox1.Text);
+
+
+                    double result = Math.Pow(Global.num1, Global.num3);
+                    TextBox1.Text = result.ToString();
+
+
+                    Global.num1 = 0;
+                    Global.num2 = ' ';
+                    Global.num3 = 0;
+                    Global.num4 = 0;
+                }
+            }
+        }
+
+        protected void Button11_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(TextBox1.Text))
+            {
+                double num = Convert.ToDouble(TextBox1.Text);
+                double result = Math.Pow(10, num);
+                TextBox1.Text = result.ToString();
+            }
+        }
+
+        protected void btnLog_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(TextBox1.Text))
+            {
+                double num = Convert.ToDouble(TextBox1.Text);
+                double result = Math.Log10(num);
+                TextBox1.Text = result.ToString();
+            }
+        }
+
+        protected void btnPow_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(TextBox1.Text))
+            {
+                double num = Convert.ToDouble(TextBox1.Text);
+                double result = Math.Pow(num, 2);
+                TextBox1.Text = result.ToString();
+            }
+        }
+
+        //karla
+        protected void btnPositiveNegative_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(TextBox1.Text))
+            {
+                double currentNumber = Convert.ToDouble(TextBox1.Text);
+                currentNumber = -currentNumber;
+                TextBox1.Text = currentNumber.ToString();
+            }
+        }
+
+        protected void btnComaDecimal_Click(object sender, EventArgs e)
+        {
+            if (!TextBox1.Text.Contains(","))
+            {
+                TextBox1.Text += ",";
+
+            }
+        }
     }
+
 }

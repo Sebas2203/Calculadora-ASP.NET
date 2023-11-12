@@ -31,28 +31,28 @@
                 <asp:Button ID="btnFactorial" runat="server" Text="n!" Height="40px" Width="40px" />
                 <asp:Button ID="btnDivision" runat="server" Text="÷" Height="40px" Width="40px" OnClick="btnDivision_Click" />
                 <br />
-                <asp:Button ID="Button6" runat="server" Text="xy" Height="40px" Width="40px" />
+                <asp:Button ID="Button6" runat="server" Text="xy" Height="40px" Width="40px" OnClick="Button6_Click" />
                 <asp:Button ID="btnSeven" runat="server" Text="7" Height="40px" Width="40px" OnClick="btnSeven_Click" />
                 <asp:Button ID="btnEight" runat="server" Text="8" Height="40px" Width="40px" OnClick="btnEight_Click" />
                 <asp:Button ID="btnNine" runat="server" Text="9" Height="40px" Width="40px" OnClick="btnNine_Click" />
                 <asp:Button ID="btnMultiplication" runat="server" Text="x" Height="40px" Width="40px" OnClick="btnMultiplication_Click" />
                 <br />
-                <asp:Button ID="Button11" runat="server" Text="10^" Height="40px" Width="40px" />
+                <asp:Button ID="Button11" runat="server" Text="10^" Height="40px" Width="40px" OnClick="Button11_Click" />
                 <asp:Button ID="btnFour" runat="server" Text="4" Height="40px" Width="40px" OnClick="btnFour_Click" />
                 <asp:Button ID="btnFive" runat="server" Text="5" Height="40px" Width="40px" OnClick="btnFive_Click" />
                 <asp:Button ID="btnSix" runat="server" Text="6" Height="40px" Width="40px" OnClick="btnSix_Click" />
                 <asp:Button ID="btnSubtraction" runat="server" Text="-" Height="40px" Width="40px" OnClick="btnSubtraction_Click" />
                 <br />
-                <asp:Button ID="btnLog" runat="server" Text="log" Height="40px" Width="40px" />
+                <asp:Button ID="btnLog" runat="server" Text="log" Height="40px" Width="40px" OnClick="btnLog_Click" />
                 <asp:Button ID="btnOne" runat="server" Text="1" Height="40px" Width="40px" OnClick="btnOne_Click1" />
                 <asp:Button ID="btnTwo" runat="server" Text="2" Height="40px" Width="40px" OnClick="btnTwo_Click" />
                 <asp:Button ID="btnThree" runat="server" Text="3" Height="40px" Width="40px" OnClick="btnThree_Click" />
                 <asp:Button ID="btnAddition" runat="server" Text="+" Height="40px" Width="40px" OnClick="btnAddition_Click" />
                 <br />
-                <asp:Button ID="btnPow" runat="server" Text="x²" Height="40px" Width="40px" />
-                <asp:Button ID="Button22" runat="server" Text="+/-" Height="40px" Width="40px" />
+                <asp:Button ID="btnPow" runat="server" Text="x²" Height="40px" Width="40px" OnClick="btnPow_Click" />
+                <asp:Button ID="btnPositiveNegative" runat="server" Text="+/-" Height="40px" Width="40px" OnClick="btnPositiveNegative_Click" />
                 <asp:Button ID="btnZero" runat="server" Text="0" Height="40px" Width="40px" OnClick="btnZero_Click" />
-                <asp:Button ID="Button24" runat="server" Text="," Height="40px" Width="40px" />
+                <asp:Button ID="btnComaDecimal" runat="server" Text="," Height="40px" Width="40px" OnClick="btnComaDecimal_Click" />
                 <asp:Button ID="btnEqual" runat="server" Text="=" Height="40px" Width="40px" OnClick="btnEqual_Click" />
             </p>
         </div>
